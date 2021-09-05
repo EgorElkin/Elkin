@@ -53,6 +53,8 @@
         android:id="@+id/buttonRetry"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:background="#0F000000"
+        android:textColor="#9F000000"
         android:text="@string/button_retry_text"
         app:layout_constraintBottom_toTopOf="@id/buttonForward"
         app:layout_constraintEnd_toEndOf="parent"
