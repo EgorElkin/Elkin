@@ -9,6 +9,7 @@ import androidx.fragment.app.Fragment
 import androidx.lifecycle.ViewModelProvider
 import com.bumptech.glide.Glide
 import com.bumptech.glide.load.DataSource
+import com.bumptech.glide.load.engine.DiskCacheStrategy
 import com.bumptech.glide.load.engine.GlideException
 import com.bumptech.glide.request.RequestListener
 import com.bumptech.glide.request.target.Target
@@ -127,6 +128,7 @@ class LatestFragment: Fragment(R.layout.fragment_page) {
 
             })
             .error(R.drawable.baseline_broken_image_24)
+            .diskCacheStrategy(DiskCacheStrategy.DATA)
             .into(imageView)
 
     }
