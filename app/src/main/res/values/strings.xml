@@ -6,4 +6,8 @@
     <string name="button_retry_text">Повторить</string>
     <string name="button_back_text">Назад</string>
     <string name="button_forward_text">Вперед</string>
+    <string name="tab_latest_label">Последние</string>
+    <string name="tab_top_label">Лучшие</string>
+    <string name="tab_random_label">Случайные</string>
+    <string name="glide_load_error_message">Не удалось загрузить изображение</string>
 </resources>
